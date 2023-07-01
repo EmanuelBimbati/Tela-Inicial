@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Menu Superior */
+.logo-img {
+    height: 80px;
+    margin-left: 60px;
+}
+
+ul {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    margin-left: 1200px;
+    margin-top: 25px;
+    color: white;
+}
+
+li {
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+background-color: #000000;
+}
+
+
+/* Menu Inferior */
+.content {
+    display: flex;
+    flex-direction: row;
+    background-color:  #b3cbff;
+}
+
+.text {
+    margin: 380px 0 0 100px;
+    padding-right: 5px;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+h2, .paragrafo{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+button{
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: #1660ff;
+    border: none;
+    font-size: 20px;
+}
+
+.img-main {
+margin-left: 100px;
+margin-top: 80px;
+}
+
+.car {
+    width: 800px;
+}
